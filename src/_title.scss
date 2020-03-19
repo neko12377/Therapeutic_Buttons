@@ -1,0 +1,54 @@
+.titleButton {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.titleButtonSet {
+  display: inline-flex;
+  width: 20%;
+}
+
+%fnButtonSet {
+  display: flex;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgb(2, 91, 2);
+  height: 2rem;
+  border-radius: 40px;
+  outline: none;
+  justify-content: center;
+  background-color: rgb(89, 245, 172);
+  box-shadow: 0 3px rgb(180, 180, 223);
+  border: none;
+  cursor: pointer;
+}
+
+%fnButtonSet:active {
+  box-shadow: 0 0;
+  transform: translateY(3px);
+  background-color: rgb(92, 216, 121);
+  border: solid 2px rgb(56, 101, 33);
+  border-bottom: 0;
+  transition:
+    transform 0.1s
+    box-shadow 0.1s
+    background-color 0.35s
+}
+
+.resetButton {
+  @extend %fnButtonSet;
+}
+
+.addButton {
+  @extend %fnButtonSet;
+}
+
+.deleteButton {
+  @extend %fnButtonSet;
+}
+
+.allSetButton {
+  @extend %fnButtonSet;
+}

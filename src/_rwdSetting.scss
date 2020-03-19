@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  .fnButton {
+    width: 90%;
+    height: 2rem;
+  }
+
+  .titleButtonSet {
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .buttonContainer {
+    width: 25%;
+  }
+
+  body {
+    width: 80vw;
+  }
+}
+@media (max-width: 480px) {
+  .buttonContainer {
+    width: 33.33333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    width: 60vw;
+  }
+}
+@media (min-width: 980px) {
+}
+@media (min-width: 1200px) {
+}
+
+
