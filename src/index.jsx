@@ -121,7 +121,7 @@ function App() {
             className={`${styles.allSetButton} ${styles.fnButton}`}
             onClick={Allset}
           >
-            Alleset
+            All set
           </button>
         </div>
         <div className={styles.titleButtonSet}>
